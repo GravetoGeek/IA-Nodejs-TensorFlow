@@ -1,0 +1,30 @@
+{
+  "name": "ia-nodejs-tensorflowjs",
+  "version": "1.0.0",
+  "description": "Projeto portfólio para detecção de Objetos (COCO-SSD), Inteligência Artificial com Node.js e TensorFlow.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GravetoGeek/IA-Nodejs-TensorFlow.git"
+  },
+  "keywords": [
+    "IA",
+    "Node.js",
+    "TensorFlow.js",
+    "Object",
+    "Detection"
+  ],
+  "author": "Eduardo Sá",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GravetoGeek/IA-Nodejs-TensorFlow/issues"
+  },
+  "homepage": "https://github.com/GravetoGeek/IA-Nodejs-TensorFlow#readme",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.1",
+    "@tensorflow/tfjs-node": "^2.8.3"
+  }
+}
